@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bedirhan-Hafta-2</name>
+    </assembly>
+    <members>
+        <member name="M:Bedirhan_Hafta_2.Controllers.HomeController.CalculateTimes(System.DateTime)">
+            <summary>
+            Query'den gelen Datetime nesnesini karşılayan ve "2 gün 3 saat 4 dakika önce" tarzında string olarak geri döndüren endpoint
+            Datetime şu düzende gönderilmeli ==>  2022-05-26T12:55:47.973Z
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Bedirhan_Hafta_2.Controllers.HomeController.CreateTable(System.Int32)">
+            <summary>
+            Customer Class'ından örnek bir veritabanı tablosu oluşturulsa, oluşacak özelliklerin cıktısını almak için yaptığımız endpoint
+            </summary>
+            <param name="x"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
